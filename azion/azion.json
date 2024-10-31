@@ -1,0 +1,63 @@
+{
+  "name": "LandingpageProgram1",
+  "bucket": "LandingpageProgram1",
+  "preset": "eleventy",
+  "env": "production",
+  "prefix": "20241031112602",
+  "not-first-run": true,
+  "function": {
+    "id": 31505,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 30184,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 0
+  },
+  "application": {
+    "id": 1730373097,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1730371755,
+    "name": "LandingpageProgram1",
+    "domain_name": "cunjxutui5.map.azionedge.net",
+    "url": "https://cunjxutui5.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 161671,
+      "origin-key": "1475d284-b7c9-4937-b2e6-ebc1f0371833",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 314128,
+        "name": "Set Storage Origin for All Requests",
+        "phase": "request"
+      },
+      {
+        "id": 314129,
+        "name": "Deliver Static Assets",
+        "phase": "request"
+      },
+      {
+        "id": 314130,
+        "name": "Redirect to index.html",
+        "phase": "request"
+      },
+      {
+        "id": 314131,
+        "name": "Redirect to index.html for Subpaths",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
